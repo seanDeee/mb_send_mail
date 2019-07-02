@@ -1,0 +1,24 @@
+/**************************************
+	header
+***************************************/
+
+header {
+    margin: 0 auto;
+    width: 100%;
+
+    .bg__Color {
+        margin: 0 auto;
+        width: 100%;
+        height: 100px;
+        background-color: #333333;
+    }
+}
+
+
+/******************************
+    header sp
+*******************************/
+
+@include media($mobileSize) {
+    header {}
+}
